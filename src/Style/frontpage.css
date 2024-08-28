@@ -1,0 +1,64 @@
+
+.ifdb-logo {
+  display: flex; 
+  justify-content: center; 
+  height: 90%; 
+        
+}
+
+.ifdb-logo img {
+  width: 50%;              
+  height: auto;           
+  margin-left: center;
+
+}    
+  body {
+    background-color: #1a1a2e; 
+  }
+  .movies-logo {
+    font-family:'Aleo';
+    font-size: 65px;
+    color: #ffffff; 
+    font-weight: bold;
+    padding-left: 50px;
+
+  }
+
+  .profile {
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: auto;
+    border-color: #ffffff;
+    position: absolute; 
+    right: 20px; 
+    top: 20px; 
+    font-family: 'Aleo';
+  }
+  .log{
+    border-radius: 20%;
+  }
+
+  .log:hover{
+    cursor: pointer;
+    outline-style: solid;
+    outline-color:  rgb(149, 155, 249);
+    outline-width: 2px;
+  }
+
+
+  .shuffle-button {
+    z-index: 3;
+  }
+
+  .shuffle-button img {
+    width: 90px;
+  }
+
+  .shuffle-button img:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    outline-style: solid;
+    outline-color: #f9fd84 ;
+    outline-width: 2px;
+    cursor: pointer;
+    transform: scale(1.07);
+  }

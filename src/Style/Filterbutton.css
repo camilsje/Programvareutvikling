@@ -1,0 +1,126 @@
+.filter-button-container {
+  margin-left: 30px;
+  color: #fff;
+}
+
+.filter-button, .clear-filters, .apply-filters {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 35px;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 24px;
+  font-family: 'Aleo';
+  transition: background-color 0.5s, box-shadow 0.3s;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+.filter-button {
+  margin-left: 3px;
+  outline-style: solid;
+  outline-color: #ffffff ;
+  outline-width: 3px;
+}
+
+.filter-button:hover, .clear-filters:hover, .apply-filters:hover {
+  background-color: #0056b3;
+  
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  outline-style: solid;
+  outline-color: #f9fd84 ;
+  outline-width: 2px;
+
+}
+
+.filter-button:active, .clear-filters:active, .apply-filters:active {
+  background-color: #00478f;
+  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.filter-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 20px;
+  border: 3px solid rgb(112, 98, 98);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+  width: 50%;
+}
+
+.filter-box .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff1414;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #888;
+}
+
+.filter-box h3 {
+  margin: 0 0 10px;
+}
+
+.filter-box button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-bottom: 3%;
+  margin-right: 2%;
+}
+
+.filter-box button:hover {
+  background-color: #0056b3;
+}
+
+.filter-box input[type="text"] {
+  padding: 10px;
+  margin-right: 3%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 5%;
+}
+
+.filter-box input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.filter-box button.selected {
+  background-color: yellow;
+  color: #000;
+  border-radius: 15px;
+}
+
+.filter-box button.apply-filters {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: auto;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.5s, box-shadow 0.3s;
+}
+
+.filter-box button.apply-filters:active {
+  background-color: green;
+  transition: none;
+}

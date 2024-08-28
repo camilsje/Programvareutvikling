@@ -1,0 +1,207 @@
+
+#movieparagraph {
+  line-height:30px;
+  background-color: rgb(126, 118, 196);
+  padding: 20px;
+  border-radius: 15px;
+
+}
+
+#moviePopup {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #popup_header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  #popup_button{
+    margin-left: 250px;
+    border-radius: 5px;
+  }
+  #popup_button :hover{
+    size: 110%;
+  }
+
+  #poster_info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 235px;
+    margin-right: 235px;
+  }
+  
+  #popup-content {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 100px;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* ensure pop-up content is on top of background */
+  }
+  #popup-content button{
+    display: inline;
+  }
+
+  #movieAttributs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #id button {
+    margin: 5px;
+  }
+
+  #genreTags {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  #genreTags div {
+    margin: 5px;
+    padding: 5px;
+    background-color:blue;
+    border-radius: 10px;
+  }
+
+  #info {
+    margin-left: 50px;
+  }
+  
+  
+  .close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+  #reviews {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(133, 122, 232, 0.239);
+    border-radius: 10px;
+    margin: 80px;
+    margin-bottom: 120px;
+  }
+
+  #reviews h2{
+    margin: 20px;
+    margin-left: 30px;
+  }
+
+  #reviews_content {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 12px;
+    background-color: rgb(126, 118, 196);
+    border-radius: 10px;
+  }
+
+  #reviews_content div{
+    margin-left: 5px;
+    border-color: black;
+    border-width: 1px;
+    overflow: auto;
+  }
+  
+  #reviews_header {
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    margin: 20px;
+  }
+
+  #reviews_header div{
+    margin-left: 5px;
+    border-color:blue;
+    border-radius: 5px;
+  }
+
+  #movie_container {
+    color: white;
+    padding: 80px;
+
+  }
+
+  #rating_box {
+    display: flex;
+    background-color: rgba(133, 122, 232, 0.239);
+    border-radius: 10px;
+    width: 50px;
+    height: 50;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size:larger;
+    margin-bottom: 20px;
+    margin-left: 8%;
+    align-self: self-end;
+    margin-left: 70%;
+  }
+
+  #rating {
+    justify-self:last baseline;
+    background-color: rgba(55, 35, 236, 0.383);
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 100px;
+  }
+
+  #trailer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh; /* Use viewport height instead of percentage */
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  #trailer iframe {
+    width: 75vw; /* Use viewport width instead of percentage */
+    height: 42.1875vw; /* 16:9 aspect ratio (9 / 16 * 75) */
+    max-height: 75vh; /* Ensure iframe doesn't exceed viewport height */
+    max-width: 100%; /* Ensure iframe doesn't exceed viewport width */
+  }
+
+  #moive-subcontainer {
+    background-color: rgba(133, 122, 232, 0.239);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(149, 189, 255); 
+    
+  }
+
+  #movie_preheader {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+  }

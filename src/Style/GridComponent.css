@@ -1,0 +1,60 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 40px; 
+  padding: 40px; 
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a2e; 
+  aspect-ratio: 1 / 1; 
+  position: relative;
+}
+
+.movie-image {
+  width: 225px; 
+  height: auto; 
+  aspect-ratio: 1 / 1.4; 
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgb(149, 189, 255); 
+}
+
+.movie-info {
+  font-style: italic;
+  text-align: center;
+  justify-content: center;
+  color: #ffff;
+}
+
+.movie-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.like, .seen, .review {
+  width: 50px;
+  margin: 5px; 
+}
+
+.like, .seen, .review:hover {
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+  border-radius: 100%;
+}
+.green {
+  background-color: green;
+  border-radius: 100%;
+}
