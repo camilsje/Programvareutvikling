@@ -29,7 +29,7 @@ Teknologistakken til prosjektet er satt sammen av Node.js, React og Firebase, so
 2. Åpne prosjektet i ønsket IDEA
 
 ## Kommandoer for å kjøre prosjektet
-I prosjektmappen kan du kjøre: `npm install` for å laste ned npm install avhengigheter, og deretter `npm install sweetalert2` for å kunne gi en vurdering. Når alt er lastet ned, kjør  `npm start fir å kjøre appen i development mode.
+I prosjektmappen kan du kjøre: `npm install` for å laste ned npm install avhengigheter, og deretter `npm install sweetalert2` for å kunne gi en vurdering. Når alt er lastet ned, kjør  `npm start` fir å kjøre appen i development mode.
 
 Hvis det er problemer med avhengighetene, kjør `rm -rf node_modules` og deretter skriv `A` for å avinstallere alle lokale kopier av avhengighetene. Deretter kjør kommandoene over. 
 
